@@ -58,6 +58,7 @@ export const GameOverModal: React.FC<GameOverModalProps> = ({ status, match, gue
                     <div className="text-xl font-bold text-white">
                         {getTeamName(match.homeTeamId)} vs {getTeamName(match.awayTeamId)}
                     </div>
+                    <p>Score: <span className="text-white font-bold text-xl">{match.score || '?-?'}</span></p>
                     <p>Result: <span className="text-white font-bold">{resultText}</span></p>
                     <p>Year: <span className="text-white font-bold">{match.year}</span></p>
                 </div>

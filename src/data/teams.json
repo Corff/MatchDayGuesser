@@ -1,370 +1,566 @@
 [
     {
         "id": 1,
-        "name": "Arsenal"
+        "name": "Arsenal",
+        "lat": 51.5549,
+        "lon": -0.1084
     },
     {
         "id": 2,
-        "name": "Aston Villa"
+        "name": "Aston Villa",
+        "lat": 52.5091,
+        "lon": -1.8848
     },
     {
         "id": 3,
-        "name": "Bournemouth"
+        "name": "Bournemouth",
+        "lat": 50.7352,
+        "lon": -1.8383
     },
     {
         "id": 4,
-        "name": "Brentford"
+        "name": "Brentford",
+        "lat": 51.4907,
+        "lon": -0.2891
     },
     {
         "id": 5,
-        "name": "Brighton & Hove Albion"
+        "name": "Brighton & Hove Albion",
+        "lat": 50.8616,
+        "lon": -0.0837
     },
     {
         "id": 6,
-        "name": "Burnley"
+        "name": "Burnley",
+        "lat": 53.7890,
+        "lon": -2.2302
     },
     {
         "id": 7,
-        "name": "Chelsea"
+        "name": "Chelsea",
+        "lat": 51.4816,
+        "lon": -0.1910
     },
     {
         "id": 8,
-        "name": "Crystal Palace"
+        "name": "Crystal Palace",
+        "lat": 51.3983,
+        "lon": -0.0855
     },
     {
         "id": 9,
-        "name": "Everton"
+        "name": "Everton",
+        "lat": 53.4388,
+        "lon": -2.9663
     },
     {
         "id": 10,
-        "name": "Fulham"
+        "name": "Fulham",
+        "lat": 51.4749,
+        "lon": -0.2216
     },
     {
         "id": 11,
-        "name": "Leeds United"
+        "name": "Leeds United",
+        "lat": 53.7778,
+        "lon": -1.5730
     },
     {
         "id": 12,
-        "name": "Liverpool"
+        "name": "Liverpool",
+        "lat": 53.4308,
+        "lon": -2.9608
     },
     {
         "id": 13,
-        "name": "Manchester City"
+        "name": "Luton Town",
+        "lat": 51.8841,
+        "lon": -0.4316
     },
     {
         "id": 14,
-        "name": "Manchester United"
+        "name": "Manchester City",
+        "lat": 53.4831,
+        "lon": -2.2004
     },
     {
         "id": 15,
-        "name": "Newcastle United"
+        "name": "Manchester United",
+        "lat": 53.4631,
+        "lon": -2.2913
     },
     {
         "id": 16,
-        "name": "Nottingham Forest"
+        "name": "Newcastle United",
+        "lat": 54.9756,
+        "lon": -1.6217
     },
     {
         "id": 17,
-        "name": "Sunderland"
+        "name": "Sunderland",
+        "lat": 54.9146,
+        "lon": -1.3884
     },
     {
         "id": 18,
-        "name": "Tottenham Hotspur"
+        "name": "Nottingham Forest",
+        "lat": 52.9400,
+        "lon": -1.1328
     },
     {
         "id": 19,
-        "name": "West Ham United"
+        "name": "Sheffield United",
+        "lat": 53.3703,
+        "lon": -1.4709
     },
     {
         "id": 20,
-        "name": "Wolverhampton Wanderers"
+        "name": "Tottenham Hotspur",
+        "lat": 51.6042,
+        "lon": -0.0662
     },
     {
         "id": 21,
-        "name": "Birmingham City"
+        "name": "Birmingham City",
+        "lat": 52.4757,
+        "lon": -1.8682
     },
     {
         "id": 22,
-        "name": "Blackburn Rovers"
+        "name": "Blackburn Rovers",
+        "lat": 53.7286,
+        "lon": -2.4892
     },
     {
         "id": 23,
-        "name": "Bristol City"
+        "name": "Bristol City",
+        "lat": 51.4400,
+        "lon": -2.6202
     },
     {
         "id": 24,
-        "name": "Charlton Athletic"
+        "name": "Charlton Athletic",
+        "lat": 51.4862,
+        "lon": 0.0364
     },
     {
         "id": 25,
-        "name": "Coventry City"
+        "name": "Coventry City",
+        "lat": 52.4481,
+        "lon": -1.4956
     },
     {
         "id": 26,
-        "name": "Derby County"
+        "name": "Derby County",
+        "lat": 52.9150,
+        "lon": -1.4472
     },
     {
         "id": 27,
-        "name": "Hull City"
+        "name": "Hull City",
+        "lat": 53.7465,
+        "lon": -0.3676
     },
     {
         "id": 28,
-        "name": "Ipswich Town"
+        "name": "Ipswich Town",
+        "lat": 52.0551,
+        "lon": 1.1447
     },
     {
         "id": 29,
-        "name": "Leicester City"
+        "name": "Leicester City",
+        "lat": 52.6204,
+        "lon": -1.1422
     },
     {
         "id": 30,
-        "name": "Middlesbrough"
+        "name": "Middlesbrough",
+        "lat": 54.5783,
+        "lon": -1.2169
     },
     {
         "id": 31,
-        "name": "Millwall"
+        "name": "Millwall",
+        "lat": 51.4859,
+        "lon": -0.0509
     },
     {
         "id": 32,
-        "name": "Norwich City"
+        "name": "Norwich City",
+        "lat": 52.6221,
+        "lon": 1.3086
     },
     {
         "id": 33,
-        "name": "Oxford United"
+        "name": "Oxford United",
+        "lat": 51.7165,
+        "lon": -1.2078
     },
     {
         "id": 34,
-        "name": "Portsmouth"
+        "name": "Portsmouth",
+        "lat": 50.7964,
+        "lon": -1.0638
     },
     {
         "id": 35,
-        "name": "Preston North End"
+        "name": "Preston North End",
+        "lat": 53.7722,
+        "lon": -2.6881
     },
     {
         "id": 36,
-        "name": "Queens Park Rangers"
+        "name": "Queens Park Rangers",
+        "lat": 51.5093,
+        "lon": -0.2321
     },
     {
         "id": 37,
-        "name": "Sheffield United"
+        "name": "Sheffield United",
+        "lat": 53.3703,
+        "lon": -1.4709
     },
     {
         "id": 38,
-        "name": "Sheffield Wednesday"
+        "name": "Sheffield Wednesday",
+        "lat": 53.4114,
+        "lon": -1.5007
     },
     {
         "id": 39,
-        "name": "Southampton"
+        "name": "Southampton",
+        "lat": 50.9058,
+        "lon": -1.3910
     },
     {
         "id": 40,
-        "name": "Stoke City"
+        "name": "Stoke City",
+        "lat": 52.9883,
+        "lon": -2.1756
     },
     {
         "id": 41,
-        "name": "Swansea City"
+        "name": "Swansea City",
+        "lat": 51.6428,
+        "lon": -3.9346
     },
     {
         "id": 42,
-        "name": "Watford"
+        "name": "Watford",
+        "lat": 51.6498,
+        "lon": -0.4015
     },
     {
         "id": 43,
-        "name": "West Bromwich Albion"
+        "name": "West Bromwich Albion",
+        "lat": 52.5091,
+        "lon": -1.9640
     },
     {
         "id": 44,
-        "name": "Wrexham"
+        "name": "Wrexham",
+        "lat": 53.0518,
+        "lon": -3.0033
     },
     {
         "id": 45,
-        "name": "Barnsley"
+        "name": "Barnsley",
+        "lat": 53.5522,
+        "lon": -1.4674
     },
     {
         "id": 46,
-        "name": "Blackpool"
+        "name": "Blackpool",
+        "lat": 53.8047,
+        "lon": -3.0481
     },
     {
         "id": 47,
-        "name": "Bolton Wanderers"
+        "name": "Bolton Wanderers",
+        "lat": 53.5805,
+        "lon": -2.5356
     },
     {
         "id": 48,
-        "name": "Bristol Rovers"
+        "name": "Bristol Rovers",
+        "lat": 51.4862,
+        "lon": -2.5831
     },
     {
         "id": 49,
-        "name": "Burton Albion"
+        "name": "Burton Albion",
+        "lat": 52.8218,
+        "lon": -1.6268
     },
     {
         "id": 50,
-        "name": "Cambridge United"
+        "name": "Cambridge United",
+        "lat": 52.2128,
+        "lon": 0.1543
     },
     {
         "id": 51,
-        "name": "Carlisle United"
+        "name": "Carlisle United",
+        "lat": 54.8955,
+        "lon": -2.9136
     },
     {
         "id": 52,
-        "name": "Cheltenham Town"
+        "name": "Cheltenham Town",
+        "lat": 51.9061,
+        "lon": -2.0602
     },
     {
         "id": 53,
-        "name": "Chesterfield"
+        "name": "Chesterfield",
+        "lat": 53.2534,
+        "lon": -1.4272
     },
     {
         "id": 54,
-        "name": "Derby County"
+        "name": "Derby County",
+        "lat": 52.9150,
+        "lon": -1.4472
     },
     {
         "id": 55,
-        "name": "Exeter City"
+        "name": "Exeter City",
+        "lat": 50.7308,
+        "lon": -3.5206
     },
     {
         "id": 56,
-        "name": "Fleetwood Town"
+        "name": "Fleetwood Town",
+        "lat": 53.9165,
+        "lon": -3.0247
     },
     {
         "id": 57,
-        "name": "Leyton Orient"
+        "name": "Leyton Orient",
+        "lat": 51.5601,
+        "lon": -0.0125
     },
     {
         "id": 58,
-        "name": "Lincoln City"
+        "name": "Lincoln City",
+        "lat": 53.2181,
+        "lon": -0.5460
     },
     {
         "id": 59,
-        "name": "Mansfield Town"
+        "name": "Mansfield Town",
+        "lat": 53.1394,
+        "lon": -1.2038
     },
     {
         "id": 60,
-        "name": "Northampton Town"
+        "name": "Northampton Town",
+        "lat": 52.2354,
+        "lon": -0.9335
     },
     {
         "id": 61,
-        "name": "Peterborough United"
+        "name": "Peterborough United",
+        "lat": 52.5645,
+        "lon": -0.2405
     },
     {
         "id": 62,
-        "name": "Port Vale"
+        "name": "Port Vale",
+        "lat": 53.0510,
+        "lon": -2.1906
     },
     {
         "id": 63,
-        "name": "Reading"
+        "name": "Reading",
+        "lat": 51.4222,
+        "lon": -0.9827
     },
     {
         "id": 64,
-        "name": "Shrewsbury Town"
+        "name": "Shrewsbury Town",
+        "lat": 52.6886,
+        "lon": -2.7494
     },
     {
         "id": 65,
-        "name": "Stevenage"
+        "name": "Stevenage",
+        "lat": 51.8897,
+        "lon": -0.1936
     },
     {
         "id": 66,
-        "name": "Wigan Athletic"
+        "name": "Wigan Athletic",
+        "lat": 53.5477,
+        "lon": -2.6539
     },
     {
         "id": 67,
-        "name": "Wycombe Wanderers"
+        "name": "Wycombe Wanderers",
+        "lat": 51.6306,
+        "lon": -0.8322
     },
     {
         "id": 68,
-        "name": "Accrington Stanley"
+        "name": "Accrington Stanley",
+        "lat": 53.7653,
+        "lon": -2.3709
     },
     {
         "id": 69,
-        "name": "AFC Wimbledon"
+        "name": "AFC Wimbledon",
+        "lat": 51.4308,
+        "lon": -0.1848
     },
     {
         "id": 70,
-        "name": "Barrow"
+        "name": "Barrow",
+        "lat": 54.1256,
+        "lon": -3.2327
     },
     {
         "id": 71,
-        "name": "Bradford City"
+        "name": "Bradford City",
+        "lat": 53.8037,
+        "lon": -1.7590
     },
     {
         "id": 72,
-        "name": "Colchester United"
+        "name": "Colchester United",
+        "lat": 51.9234,
+        "lon": 0.8977
     },
     {
         "id": 73,
-        "name": "Crawley Town"
+        "name": "Crawley Town",
+        "lat": 51.1098,
+        "lon": -0.1963
     },
     {
         "id": 74,
-        "name": "Crewe Alexandra"
+        "name": "Crewe Alexandra",
+        "lat": 53.0874,
+        "lon": -2.4367
     },
     {
         "id": 75,
-        "name": "Doncaster Rovers"
+        "name": "Doncaster Rovers",
+        "lat": 53.5352,
+        "lon": -1.1136
     },
     {
         "id": 76,
-        "name": "Forest Green Rovers"
+        "name": "Forest Green Rovers",
+        "lat": 51.6936,
+        "lon": -2.2479
     },
     {
         "id": 77,
-        "name": "Gillingham"
+        "name": "Gillingham",
+        "lat": 51.3843,
+        "lon": 0.5606
     },
     {
         "id": 78,
-        "name": "Grimsby Town"
+        "name": "Grimsby Town",
+        "lat": 53.5796,
+        "lon": -0.0526
     },
     {
         "id": 79,
-        "name": "Harrogate Town"
+        "name": "Harrogate Town",
+        "lat": 53.9834,
+        "lon": -1.4996
     },
     {
         "id": 80,
-        "name": "Milton Keynes Dons"
+        "name": "Milton Keynes Dons",
+        "lat": 52.0096,
+        "lon": -0.7335
     },
     {
         "id": 81,
-        "name": "Morecambe"
+        "name": "Morecambe",
+        "lat": 54.0628,
+        "lon": -2.8710
     },
     {
         "id": 82,
-        "name": "Newport County"
+        "name": "Newport County",
+        "lat": 51.5883,
+        "lon": -2.9734
     },
     {
         "id": 83,
-        "name": "Notts County"
+        "name": "Notts County",
+        "lat": 52.9427,
+        "lon": -1.1374
     },
     {
         "id": 84,
-        "name": "Salford City"
+        "name": "Salford City",
+        "lat": 53.5134,
+        "lon": -2.2759
     },
     {
         "id": 85,
-        "name": "Stockport County"
+        "name": "Stockport County",
+        "lat": 53.4002,
+        "lon": -2.1664
     },
     {
         "id": 86,
-        "name": "Sutton United"
+        "name": "Sutton United",
+        "lat": 51.3732,
+        "lon": -0.1968
     },
     {
         "id": 87,
-        "name": "Swindon Town"
+        "name": "Swindon Town",
+        "lat": 51.5645,
+        "lon": -1.7709
     },
     {
         "id": 88,
-        "name": "Tranmere Rovers"
+        "name": "Tranmere Rovers",
+        "lat": 53.3736,
+        "lon": -3.0329
     },
     {
         "id": 89,
-        "name": "Walsall"
+        "name": "Walsall",
+        "lat": 52.5656,
+        "lon": -1.9912
     },
     {
         "id": 90,
-        "name": "Yeovil Town"
+        "name": "Yeovil Town",
+        "lat": 50.9502,
+        "lon": -2.6749
     },
     {
         "id": 91,
-        "name": "York City"
+        "name": "York City",
+        "lat": 53.9702,
+        "lon": -1.0638
     },
     {
         "id": 92,
-        "name": "Hartlepool United"
+        "name": "Hartlepool United",
+        "lat": 54.6896,
+        "lon": -1.2222
+    },
+    {
+        "id": 93,
+        "name": "West Ham United",
+        "lat": 51.5387,
+        "lon": -0.0166
+    },
+    {
+        "id": 94,
+        "name": "Wolverhampton Wanderers",
+        "lat": 52.5902,
+        "lon": -2.1304
     }
 ]

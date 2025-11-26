@@ -5,10 +5,12 @@ import { GuessForm } from './components/GuessForm';
 import { GuessGrid } from './components/GuessGrid';
 import { GameOverModal } from './components/GameOverModal';
 import { Archive } from './components/Archive';
-import { Calendar, Trash2 } from 'lucide-react';
+import { SettingsModal } from './components/SettingsModal';
+import { Calendar, Trash2, Settings } from 'lucide-react';
 
 function App() {
     const [showArchive, setShowArchive] = useState(false);
+    const [showSettings, setShowSettings] = useState(false);
     const [targetDate, setTargetDate] = useState<string | undefined>(undefined);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -20,7 +22,7 @@ function App() {
         }
     }, []);
 
-    const { currentMatch, gameState, submitGuess, calculateFeedback, MAX_GUESSES } = useGameState(targetDate);
+    const { currentMatch, gameState, submitGuess, calculateFeedback, MAX_GUESSES, units, toggleUnits } = useGameState(targetDate);
 
     useEffect(() => {
         if (gameState.gameStatus !== 'playing') {
@@ -72,13 +74,22 @@ function App() {
                 <p className="text-gray-400">Guess the match from the image</p>
                 <div className="text-sm text-gray-500 mt-1">{currentMatch.date}</div>
 
-                <button
-                    onClick={() => setShowArchive(true)}
-                    className="absolute right-0 top-0 p-2 text-gray-400 hover:text-white transition-colors"
-                    title="Archive"
-                >
-                    <Calendar size={24} />
-                </button>
+                <div className="absolute right-0 top-0 flex gap-2">
+                    <button
+                        onClick={() => setShowSettings(true)}
+                        className="p-2 text-gray-400 hover:text-white transition-colors"
+                        title="Settings"
+                    >
+                        <Settings size={24} />
+                    </button>
+                    <button
+                        onClick={() => setShowArchive(true)}
+                        className="p-2 text-gray-400 hover:text-white transition-colors"
+                        title="Archive"
+                    >
+                        <Calendar size={24} />
+                    </button>
+                </div>
             </header>
 
             {showArchive && (
@@ -88,9 +99,20 @@ function App() {
                 />
             )}
 
+            <SettingsModal
+                isOpen={showSettings}
+                onClose={() => setShowSettings(false)}
+                units={units}
+                toggleUnits={toggleUnits}
+            />
+
             <MatchImage imageId={currentMatch.imageId} />
 
-            <GuessGrid guesses={gameState.guesses} calculateFeedback={(g) => calculateFeedback(g, currentMatch)} />
+            <GuessGrid
+                guesses={gameState.guesses}
+                calculateFeedback={(g) => calculateFeedback(g, currentMatch)}
+                units={units}
+            />
 
             {gameState.gameStatus === 'playing' && gameState.guesses.length < MAX_GUESSES && (
                 <GuessForm onSubmit={submitGuess} disabled={gameState.gameStatus !== 'playing'} />
