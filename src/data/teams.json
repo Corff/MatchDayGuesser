@@ -1,0 +1,370 @@
+[
+    {
+        "id": 1,
+        "name": "Arsenal"
+    },
+    {
+        "id": 2,
+        "name": "Aston Villa"
+    },
+    {
+        "id": 3,
+        "name": "Bournemouth"
+    },
+    {
+        "id": 4,
+        "name": "Brentford"
+    },
+    {
+        "id": 5,
+        "name": "Brighton & Hove Albion"
+    },
+    {
+        "id": 6,
+        "name": "Burnley"
+    },
+    {
+        "id": 7,
+        "name": "Chelsea"
+    },
+    {
+        "id": 8,
+        "name": "Crystal Palace"
+    },
+    {
+        "id": 9,
+        "name": "Everton"
+    },
+    {
+        "id": 10,
+        "name": "Fulham"
+    },
+    {
+        "id": 11,
+        "name": "Leeds United"
+    },
+    {
+        "id": 12,
+        "name": "Liverpool"
+    },
+    {
+        "id": 13,
+        "name": "Manchester City"
+    },
+    {
+        "id": 14,
+        "name": "Manchester United"
+    },
+    {
+        "id": 15,
+        "name": "Newcastle United"
+    },
+    {
+        "id": 16,
+        "name": "Nottingham Forest"
+    },
+    {
+        "id": 17,
+        "name": "Sunderland"
+    },
+    {
+        "id": 18,
+        "name": "Tottenham Hotspur"
+    },
+    {
+        "id": 19,
+        "name": "West Ham United"
+    },
+    {
+        "id": 20,
+        "name": "Wolverhampton Wanderers"
+    },
+    {
+        "id": 21,
+        "name": "Birmingham City"
+    },
+    {
+        "id": 22,
+        "name": "Blackburn Rovers"
+    },
+    {
+        "id": 23,
+        "name": "Bristol City"
+    },
+    {
+        "id": 24,
+        "name": "Charlton Athletic"
+    },
+    {
+        "id": 25,
+        "name": "Coventry City"
+    },
+    {
+        "id": 26,
+        "name": "Derby County"
+    },
+    {
+        "id": 27,
+        "name": "Hull City"
+    },
+    {
+        "id": 28,
+        "name": "Ipswich Town"
+    },
+    {
+        "id": 29,
+        "name": "Leicester City"
+    },
+    {
+        "id": 30,
+        "name": "Middlesbrough"
+    },
+    {
+        "id": 31,
+        "name": "Millwall"
+    },
+    {
+        "id": 32,
+        "name": "Norwich City"
+    },
+    {
+        "id": 33,
+        "name": "Oxford United"
+    },
+    {
+        "id": 34,
+        "name": "Portsmouth"
+    },
+    {
+        "id": 35,
+        "name": "Preston North End"
+    },
+    {
+        "id": 36,
+        "name": "Queens Park Rangers"
+    },
+    {
+        "id": 37,
+        "name": "Sheffield United"
+    },
+    {
+        "id": 38,
+        "name": "Sheffield Wednesday"
+    },
+    {
+        "id": 39,
+        "name": "Southampton"
+    },
+    {
+        "id": 40,
+        "name": "Stoke City"
+    },
+    {
+        "id": 41,
+        "name": "Swansea City"
+    },
+    {
+        "id": 42,
+        "name": "Watford"
+    },
+    {
+        "id": 43,
+        "name": "West Bromwich Albion"
+    },
+    {
+        "id": 44,
+        "name": "Wrexham"
+    },
+    {
+        "id": 45,
+        "name": "Barnsley"
+    },
+    {
+        "id": 46,
+        "name": "Blackpool"
+    },
+    {
+        "id": 47,
+        "name": "Bolton Wanderers"
+    },
+    {
+        "id": 48,
+        "name": "Bristol Rovers"
+    },
+    {
+        "id": 49,
+        "name": "Burton Albion"
+    },
+    {
+        "id": 50,
+        "name": "Cambridge United"
+    },
+    {
+        "id": 51,
+        "name": "Carlisle United"
+    },
+    {
+        "id": 52,
+        "name": "Cheltenham Town"
+    },
+    {
+        "id": 53,
+        "name": "Chesterfield"
+    },
+    {
+        "id": 54,
+        "name": "Derby County"
+    },
+    {
+        "id": 55,
+        "name": "Exeter City"
+    },
+    {
+        "id": 56,
+        "name": "Fleetwood Town"
+    },
+    {
+        "id": 57,
+        "name": "Leyton Orient"
+    },
+    {
+        "id": 58,
+        "name": "Lincoln City"
+    },
+    {
+        "id": 59,
+        "name": "Mansfield Town"
+    },
+    {
+        "id": 60,
+        "name": "Northampton Town"
+    },
+    {
+        "id": 61,
+        "name": "Peterborough United"
+    },
+    {
+        "id": 62,
+        "name": "Port Vale"
+    },
+    {
+        "id": 63,
+        "name": "Reading"
+    },
+    {
+        "id": 64,
+        "name": "Shrewsbury Town"
+    },
+    {
+        "id": 65,
+        "name": "Stevenage"
+    },
+    {
+        "id": 66,
+        "name": "Wigan Athletic"
+    },
+    {
+        "id": 67,
+        "name": "Wycombe Wanderers"
+    },
+    {
+        "id": 68,
+        "name": "Accrington Stanley"
+    },
+    {
+        "id": 69,
+        "name": "AFC Wimbledon"
+    },
+    {
+        "id": 70,
+        "name": "Barrow"
+    },
+    {
+        "id": 71,
+        "name": "Bradford City"
+    },
+    {
+        "id": 72,
+        "name": "Colchester United"
+    },
+    {
+        "id": 73,
+        "name": "Crawley Town"
+    },
+    {
+        "id": 74,
+        "name": "Crewe Alexandra"
+    },
+    {
+        "id": 75,
+        "name": "Doncaster Rovers"
+    },
+    {
+        "id": 76,
+        "name": "Forest Green Rovers"
+    },
+    {
+        "id": 77,
+        "name": "Gillingham"
+    },
+    {
+        "id": 78,
+        "name": "Grimsby Town"
+    },
+    {
+        "id": 79,
+        "name": "Harrogate Town"
+    },
+    {
+        "id": 80,
+        "name": "Milton Keynes Dons"
+    },
+    {
+        "id": 81,
+        "name": "Morecambe"
+    },
+    {
+        "id": 82,
+        "name": "Newport County"
+    },
+    {
+        "id": 83,
+        "name": "Notts County"
+    },
+    {
+        "id": 84,
+        "name": "Salford City"
+    },
+    {
+        "id": 85,
+        "name": "Stockport County"
+    },
+    {
+        "id": 86,
+        "name": "Sutton United"
+    },
+    {
+        "id": 87,
+        "name": "Swindon Town"
+    },
+    {
+        "id": 88,
+        "name": "Tranmere Rovers"
+    },
+    {
+        "id": 89,
+        "name": "Walsall"
+    },
+    {
+        "id": 90,
+        "name": "Yeovil Town"
+    },
+    {
+        "id": 91,
+        "name": "York City"
+    },
+    {
+        "id": 92,
+        "name": "Hartlepool United"
+    }
+]

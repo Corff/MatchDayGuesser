@@ -1,0 +1,58 @@
+[
+    {
+        "date": "2025-11-21",
+        "homeTeamId": 12,
+        "awayTeamId": 14,
+        "result": 1,
+        "year": 2012,
+        "imageId": "match_2012_09_23"
+    },
+    {
+        "date": "2025-11-22",
+        "homeTeamId": 12,
+        "awayTeamId": 14,
+        "result": 1,
+        "year": 2012,
+        "imageId": "match_2012_09_23"
+    },
+    {
+        "date": "2025-11-23",
+        "homeTeamId": 12,
+        "awayTeamId": 14,
+        "result": 1,
+        "year": 2012,
+        "imageId": "match_2012_09_23"
+    },
+    {
+        "date": "2025-11-24",
+        "homeTeamId": 12,
+        "awayTeamId": 14,
+        "result": 1,
+        "year": 2012,
+        "imageId": "match_2012_09_23"
+    },
+    {
+        "date": "2025-11-25",
+        "homeTeamId": 12,
+        "awayTeamId": 14,
+        "result": 1,
+        "year": 2012,
+        "imageId": "match_2012_09_23"
+    },
+    {
+        "date": "2025-11-26",
+        "homeTeamId": 12,
+        "awayTeamId": 14,
+        "result": 1,
+        "year": 2012,
+        "imageId": "match_2012_09_23"
+    },
+    {
+        "date": "2025-11-27",
+        "homeTeamId": 11,
+        "awayTeamId": 7,
+        "result": 0,
+        "year": 2008,
+        "imageId": "match_2025_11_26"
+    }
+]
