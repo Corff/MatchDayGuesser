@@ -61,5 +61,23 @@
         "year": 2008,
         "imageId": "match_2025_11_26",
         "score": "0-0"
+    },
+    {
+        "date": "2025-11-29",
+        "homeTeamId": 20,
+        "awayTeamId": 93,
+        "result": 0,
+        "year": 2020,
+        "imageId": "Screenshot from 2025-11-29 22-34-09",
+        "score": "3-3"
+    },
+    {
+        "date": "2025-11-30",
+        "homeTeamId": 1,
+        "awayTeamId": 2,
+        "result": 1,
+        "year": 2021,
+        "imageId": "Screenshot from 2025-11-29 22-45-35",
+        "score": "2-1"
     }
 ]

@@ -6,6 +6,7 @@ import { GuessGrid } from './components/GuessGrid';
 import { GameOverModal } from './components/GameOverModal';
 import { Archive } from './components/Archive';
 import { SettingsModal } from './components/SettingsModal';
+import { DevPage } from './components/DevPage';
 import { Calendar, Trash2, Settings } from 'lucide-react';
 
 function App() {
@@ -13,8 +14,14 @@ function App() {
     const [showSettings, setShowSettings] = useState(false);
     const [targetDate, setTargetDate] = useState<string | undefined>(undefined);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isDev, setIsDev] = useState(false);
 
     useEffect(() => {
+        if (window.location.pathname === '/dev') {
+            setIsDev(true);
+            return;
+        }
+
         const params = new URLSearchParams(window.location.search);
         const dateParam = params.get('date');
         if (dateParam) {
@@ -46,6 +53,10 @@ function App() {
             window.location.reload();
         }
     };
+
+    if (isDev) {
+        return <DevPage />;
+    }
 
     if (!currentMatch) {
         return (
