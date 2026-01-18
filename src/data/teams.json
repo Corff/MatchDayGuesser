@@ -562,5 +562,11 @@
         "name": "Wolverhampton Wanderers",
         "lat": 52.5902,
         "lon": -2.1304
+    },
+    {
+        "id": 95,
+        "name": "Cardiff City",
+        "lat": 51.4737,
+        "lon": -3.1791
     }
 ]

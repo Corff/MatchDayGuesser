@@ -61,5 +61,14 @@
         "year": 2008,
         "imageId": "match_2025_11_26",
         "score": "0-0"
+    },
+    {
+        "date": "2026-01-18",
+        "homeTeamId": 95,
+        "awayTeamId": 7,
+        "result": 2,
+        "year": 2019,
+        "imageId": "match_2026_01_18",
+        "score": "1-2"
     }
 ]
