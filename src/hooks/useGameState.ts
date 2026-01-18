@@ -14,7 +14,11 @@ export interface Feedback {
     awayTeam: 'correct' | 'incorrect';
     result: 'correct' | 'incorrect';
     year: 'correct' | 'higher' | 'lower' | 'close-higher' | 'close-lower';
+    homeDistance?: number;
+    awayDistance?: number;
 }
+
+export type Unit = 'km' | 'miles';
 
 export interface GameState {
     guesses: Guess[];
@@ -31,6 +35,7 @@ export const useGameState = (targetDate?: string) => {
         gameStatus: 'playing',
         lastPlayedDate: '',
     });
+    const [units, setUnits] = useState<Unit>('km');
 
     // Determine the date to use. If targetDate is provided, use it. Otherwise, use today.
     const dateToUse = targetDate || new Date().toISOString().split('T')[0];
@@ -53,6 +58,12 @@ export const useGameState = (targetDate?: string) => {
                 lastPlayedDate: dateToUse,
             });
         }
+
+        // Load units preference
+        const savedUnits = localStorage.getItem('matchday_guesser_units');
+        if (savedUnits) {
+            setUnits(savedUnits as Unit);
+        }
     }, [dateToUse]);
 
     useEffect(() => {
@@ -61,6 +72,27 @@ export const useGameState = (targetDate?: string) => {
             localStorage.setItem(storageKey, JSON.stringify(gameState));
         }
     }, [gameState, dateToUse]);
+
+    useEffect(() => {
+        localStorage.setItem('matchday_guesser_units', units);
+    }, [units]);
+
+    const toggleUnits = () => {
+        setUnits(prev => prev === 'km' ? 'miles' : 'km');
+    };
+
+    const calculateDistance = (lat1: number, lon1: number, lat2: number, lon2: number): number => {
+        const R = 6371; // Radius of the earth in km
+        const dLat = (lat2 - lat1) * (Math.PI / 180);
+        const dLon = (lon2 - lon1) * (Math.PI / 180);
+        const a =
+            Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        const d = R * c; // Distance in km
+        return d;
+    };
 
     const calculateFeedback = (guess: Guess, match: typeof matches[0]): Feedback => {
         const yearDiff = guess.year - match.year;
@@ -72,11 +104,27 @@ export const useGameState = (targetDate?: string) => {
         else if (yearDiff > 0) yearFeedback = 'lower';
         else yearFeedback = 'higher';
 
+        const homeTeam = teams.find(t => t.id === match.homeTeamId);
+        const guessedHomeTeam = teams.find(t => t.id === guess.homeTeamId);
+        let homeDistance = 0;
+        if (homeTeam && guessedHomeTeam && homeTeam.id !== guessedHomeTeam.id) {
+            homeDistance = calculateDistance(homeTeam.lat, homeTeam.lon, guessedHomeTeam.lat, guessedHomeTeam.lon);
+        }
+
+        const awayTeam = teams.find(t => t.id === match.awayTeamId);
+        const guessedAwayTeam = teams.find(t => t.id === guess.awayTeamId);
+        let awayDistance = 0;
+        if (awayTeam && guessedAwayTeam && awayTeam.id !== guessedAwayTeam.id) {
+            awayDistance = calculateDistance(awayTeam.lat, awayTeam.lon, guessedAwayTeam.lat, guessedAwayTeam.lon);
+        }
+
         return {
             homeTeam: guess.homeTeamId === match.homeTeamId ? 'correct' : 'incorrect',
             awayTeam: guess.awayTeamId === match.awayTeamId ? 'correct' : 'incorrect',
             result: guess.result === match.result ? 'correct' : 'incorrect',
             year: yearFeedback,
+            homeDistance,
+            awayDistance
         };
     };
 
@@ -120,6 +168,8 @@ export const useGameState = (targetDate?: string) => {
         resetDailyProgress,
         teams,
         MAX_GUESSES,
-        dateToUse
+        dateToUse,
+        units,
+        toggleUnits
     };
 };

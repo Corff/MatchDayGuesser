@@ -5,7 +5,8 @@
         "awayTeamId": 14,
         "result": 1,
         "year": 2012,
-        "imageId": "match_2012_09_23"
+        "imageId": "match_2012_09_23",
+        "score": "2-1"
     },
     {
         "date": "2025-11-22",
@@ -13,7 +14,8 @@
         "awayTeamId": 14,
         "result": 1,
         "year": 2012,
-        "imageId": "match_2012_09_23"
+        "imageId": "match_2012_09_23",
+        "score": "3-0"
     },
     {
         "date": "2025-11-23",
@@ -21,7 +23,8 @@
         "awayTeamId": 14,
         "result": 1,
         "year": 2012,
-        "imageId": "match_2012_09_23"
+        "imageId": "match_2012_09_23",
+        "score": "1-0"
     },
     {
         "date": "2025-11-24",
@@ -29,7 +32,8 @@
         "awayTeamId": 14,
         "result": 1,
         "year": 2012,
-        "imageId": "match_2012_09_23"
+        "imageId": "match_2012_09_23",
+        "score": "2-2"
     },
     {
         "date": "2025-11-25",
@@ -37,7 +41,8 @@
         "awayTeamId": 14,
         "result": 1,
         "year": 2012,
-        "imageId": "match_2012_09_23"
+        "imageId": "match_2012_09_23",
+        "score": "0-1"
     },
     {
         "date": "2025-11-26",
@@ -45,7 +50,8 @@
         "awayTeamId": 14,
         "result": 1,
         "year": 2012,
-        "imageId": "match_2012_09_23"
+        "imageId": "match_2012_09_23",
+        "score": "1-1"
     },
     {
         "date": "2025-11-27",
@@ -53,6 +59,16 @@
         "awayTeamId": 7,
         "result": 0,
         "year": 2008,
-        "imageId": "match_2025_11_26"
+        "imageId": "match_2025_11_26",
+        "score": "0-0"
+    },
+    {
+        "date": "2026-01-18",
+        "homeTeamId": 21,
+        "awayTeamId": 23,
+        "result": 2,
+        "year": 2019,
+        "imageId": "match_2026_01_18",
+        "score": "1-2"
     }
 ]
